@@ -44,7 +44,7 @@ I could only find five servos and one was broken, so instead of getting another 
 
 Thicker gloves are recommended as rubber gloves crease and expand more when you put them on, which can affect readings from the pressure sensors. However, I only had rubber gloves which were accurate enough once with precise calibration.  
 The pressure sensors were made out of Velostat and copper tape, which is a cheap alternative to pressure or flex sensor components.
-To make the sensor, I stuck a strip of copper tape to each side of the Velostat and soldered wires on each side for 5V and GND. Here is the schematic for the sensor:
+To make the sensor, I stuck a strip of copper tape to each side of the Velostat and soldered wires on each side for 5V and GND. Here is the schematic for the sensor (there should be a 50kΩ resistor before 5V, after the pin wire):
 <div align="center">
   <img src="https://github.com/crazerly/robotic-hand/blob/main/imgs/schematic.png" width="400">
 </div>
